@@ -1,0 +1,149 @@
+body
+{
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:2%;
+    margin-bottom:2%;
+    background-repeat:no-repeat;
+    background-image:url("images/back.jpg");/*<!--http://hqwallbase.com/images/big/Instruments-Wallpaper-1920x1200.jpg -->*/
+    background-size:cover; 
+}
+#signin
+{
+    float:top;
+    text-align:right;
+    width:100%;
+    font-weight:bold;
+    color:white;
+    position:relative;
+	
+}
+#header
+{
+    float:left;
+    width:100%;
+    text-align:center;
+    position:relative;
+}
+#path
+{
+    float:top;
+    text-align:right;
+    width:100%;
+    position:relative;
+    font-weight:bold;
+    color:white;
+}
+#tnav
+{
+    float:left;
+    width:100%;
+    text-align:center;
+    position: relative ;
+    margin-bottom:2%;
+    border: 2px solid #f28f00;
+    background-color:#f28f00;
+    font-weight:bold;
+    border-radius:5px;
+}
+#snav
+{
+    float:left;
+    width:23%;
+    margin-right:1%;
+    margin-bottom:1%;
+    font-weight:bold;
+    padding-top:1%;
+    padding-bottom:1%;
+    padding-left:1%;
+    border-radius:10px;
+    border: 2px solid #f28f00;
+    position:relative;
+}
+#main
+{
+    float:right;
+    width:71%;
+    height:float;
+    position:relative;
+    text-align:left;
+    padding-top:1%;
+    padding-bottom:1%;
+    border-radius:10px;
+    border: 2px solid #f28f00;
+    color: white;
+    padding-left:1%;
+    padding-right:1%;
+    margin-bottom:1%;
+}
+#footer
+{
+    color: white;
+    float:right;
+    width:100%;
+    height:float;
+    margin-bottom:2%;
+    text-align:center;
+    margin-top:1%;
+    border-radius:10px;
+    border: 2px solid #f28f00;
+    position:relative;
+    background-color:#f28f00;
+}
+table.width
+{
+    width: 100%;
+}
+input,button
+{
+    background-color:#f28f00; 
+    padding: 2px;
+    color:white;
+    border-color:#f28f00;
+    border-radius:5px;
+}
+input:hover,button:hover {
+    color: #CC0000;
+}
+#1
+{
+    width: 50%;
+    text-align: left;
+}
+#2
+{
+    width:17%;
+}
+#4
+{
+    width:17%;
+}
+#3
+{
+    width:26%;
+}
+.top 
+{
+    border-top:thin solid;
+    border-color:#f28f00;
+}
+
+.bottom 
+{
+    border-bottom:thin solid;
+    border-color:#f28f00;
+}
+a:link 
+{
+    color: white;
+    text-decoration:none;
+}
+a:visited 
+{
+    color: white;
+}
+
+a:hover 
+{
+    color: #CC0000;
+}
