@@ -1,0 +1,415 @@
+/*
+================== reset Css ===================================
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	line-height: 1;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+a:hover {
+	color: #de4a4a;
+}
+a:active {
+	color: #c64545;
+}
+a, a:visited, a:hover {
+	text-decoration: none;
+}
+body {
+	background: none repeat scroll top right #F1F1F1;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+p {
+	font-size: 12px/1.8em;
+}
+/*
+================== Template Styles ===================================
+*/	
+.clearfix:after { /* stacks overflow */
+	content: " ";
+	visibility: hidden;
+	display: table;
+	height: 0;
+	clear: both;
+}
+.container {
+	margin: 0 auto;
+	max-width: 980px;
+	width: 100%;
+	position: relative;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.hide {
+	display: none;
+}
+.curent, .curent:hover, .curent:active {
+	background-color: #C64545 !important;
+}
+.curent a, .curent a:hover, .curent a:active {
+	color: #fff !important;
+}
+.calaog-lists{
+	margin:20px 10px;
+	}
+.col3{
+	width:33%;
+	float:left;
+	padding:10px 5px;
+	}	
+.btn-default {
+    background: none repeat scroll 0 0 #de4a4a;
+    border: 1px solid #a21b1b;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    outline: 0 none;
+    padding: 8px 12px;
+	cursor:pointer;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+.btn-default:hover{
+	 background: none repeat scroll 0 0 #d64545;
+    color: #fff;
+}
+.btn-default:hover:active{
+	background: none repeat scroll 0 0 #e75656;
+		}	
+/* header 
+*********************************************/
+
+.header-top {
+	background: none repeat scroll top right #F1F1F1;
+	width: 100%;
+}
+.user-nav li {
+	display: inline-block;
+	border-right: 1px solid #CDCDCD;
+	margin: 0;
+	padding: 0;
+	margin-left: -4px;
+}
+.user-nav li:first-child {
+	border-left: 1px solid #CDCDCD;
+}
+.user-nav li:hover {
+	background-color: #fff;
+}
+.user-nav li a {
+	color: #de4a4a;
+	font-size: 14px;
+	font-weight: 700;
+	display: block;
+	margin: 7px 10px;
+}
+.main-header {
+	background: none repeat scroll top right #fff;
+	border-bottom: 1px solid #D3D3D3;
+	position:relative;
+}
+.main-header span a {
+	font-size: 28px;
+	color: #FF0004;
+}
+.main-header > div {
+	padding: 20px 10px;
+}
+.breadcrumbs{
+    position: absolute;
+    right: 2%;
+    top: 70%;
+}
+.breadcrumbs a{
+	color:#313131;
+}
+.breadcrumbs a:hover{
+	color: #de4a4a;
+	}
+.breadcrumbs a:active {
+	color: #c64545;
+}
+.breadcrumbs .activepage, .breadcrumbs .activepage:hover, .breadcrumbs .activepage:active {
+	color: #de4a4a;
+	}
+/* navigation
+*********************************************/
+#page-navigation {
+	background: none repeat scroll top right #5E5652;
+}
+.prime-nav {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 350px;
+}
+.prime-nav li {
+	border-right: 1px solid #D8D8D8;
+	display: inline-block;
+	cursor: pointer;
+	margin-left: -4px;
+}
+.prime-nav li:first-child {
+	border-left: 1px solid #D8D8D8;
+}
+.prime-nav li:hover {
+	background-color: #C64545;
+}
+.prime-nav li:active {
+	background-color: #d75656;
+}
+.prime-nav li a {
+	display: block;
+	padding: 10px 15px;
+	font-weight: bold;
+	font-size: 13px;
+	color: #fff;
+}
+/*main page content
+*********************************************/
+#main-content {
+	width: 70%;
+	padding: 20px 10px 20px 10px;
+	overflow:hidden;
+}
+#main-content > .main-home {
+	background-color: #fff;
+	border: 1px solid #b0b0b0;
+	padding: 20px 10px;
+}
+#main-content h1 {
+	text-align: center;
+	padding: 10px 5px;
+	background-color: #5E5652;
+	color: #fff;
+	font-size: 16px;
+}
+#main-content p {
+	color: #5e5e5d;
+	left: 16px;
+	line-height: 1.2;
+	text-align: justify;
+}
+.main-home .aboutbooker{
+	padding: 35px;
+}
+.main-conatint-wrap{
+	min-height:450px;
+	}
+/* sidebar
+*********************************************/
+#sidebar {
+	width: 30%;
+	padding: 20px 10px 20px 10px;
+	overflow:hidden;
+}
+#sidebar > div {
+	background-color: #fff;
+	border: 1px solid #b0b0b0;
+}
+#sidebar h2 {
+	text-align: center;
+	padding: 10px 5px;
+	background-color: #5E5652;
+	color: #fff;
+	font-size: 16px;
+}
+.category-nav li {
+	background-color: #FdFdFd;
+	border-bottom: 1px solid #D3D3D3;
+	color: #000 ;
+}
+.category-nav li:last-child {
+	border-bottom: none;
+}
+.category-nav li:nth-child(odd) {
+	background-color: #efefef;
+}
+.category-nav li a {
+	color: #5e5e5d;
+	font-size: 18px;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 10px 20px 10px 37%;
+}
+.category-nav li a:hover {
+	color: #DE4A4A;
+}
+.category-nav li a:active {
+	color: #C64545;
+}
+.booker-slide {
+	margin: 0 auto;
+	max-width: 585px;
+	width:100%;
+}
+.booker-slide img {
+	padding: 2px;
+	border: 1px solid #b0b0b0;
+}
+.booker-slide figcaption {
+	background-color: #F1F1F1;
+	margin: -2px 0 0 0;
+	padding: 10px 0;
+	text-align: center;
+	border: 1px solid #b0b0b0;
+	border-bottom: 2px solid #DE4A4A;
+	border-top: none;
+	color: #5e5e5d;
+}
+/* footer 
+*********************************************/
+#page-footer {
+	background-color: #fff;
+	border-top: 1px solid #D3D3D3;
+	padding: 20px 0;
+}
+#page-footer p {
+	text-align: center;
+	font-size: 16px;
+	color: #6d6d6d;
+}
+#page-footer {
+	background-color: #fff;
+	border-top: 1px solid #D3D3D3;
+	padding: 20px 0;
+}
+#page-footer p {
+	text-align: center;
+	font-size: 16px;
+}
+/*
+================== pages style ===================================
+*/
+
+/* Catalog
+*********************************************/
+
+.calaog-lists details{
+	background: none repeat scroll 0 0 #f1f1f1;
+    border: 1px solid #d7d7d7;
+	min-height:215px;
+	}
+.calaog-lists summary{
+	background-color: #fff;
+    display: block;
+    padding: 10px 0;
+	text-align:center;
+	color: #5e5652;
+    font-size: 14px;
+    font-weight: bold;
+	border-bottom: 1px solid #d7d7d7;
+	}
+.calaog-lists ul li{
+	padding:10px;
+	border-bottom: 1px solid #d7d7d7;
+	}	
+.calaog-lists ul li:last-child{
+	border-bottom: none;
+	}
+.calaog-lists li a {
+    color: #1c64a1;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+}
+.calaog-lists li a:hover {
+    color: #de4a4a;
+}
+.calaog-lists li a:active {
+    color: #c64545;
+}
+
+/* item
+*********************************************/
+
+.item-image {
+    background-color: #f3f3f3;
+    border: 1px solid #b0b0b0;
+    display: inline-block;
+    padding: -6px;
+	float:left;
+}
+.item-image img {
+    border: 1px solid #b0b0b0;
+    margin: 3px;
+}
+.item-data {
+    font-size: 12px;
+    max-width: 435px;
+    padding: 5px 10px;
+}
+.item-data > h2 {
+    margin-bottom: 10px;
+}
+.item-data  span {
+    font-size: 24px;
+    font-weight: bold;
+	color:#3B8400;
+}
+.item-description {
+    border-top: 1px dashed #b0b0b0;
+    font-size: 14px;
+    line-height: 1;
+    margin-top: 25px;
+    padding: 20px;
+    text-align: justify;
+}
+/* cart
+*********************************************/
+.cart-table{
+	width:100%;
+	}
+.cart-note {
+    font-size: 16px;
+}
+ .cart-table thead th{
+	 padding:5px;
+	 font-size:16px;
+	 border-bottom:1px dashed #b0b0b0;
+	 }	 
+ .cart-table thead th:nth-child(1){
+	 text-align:left;
+	 width:50%;	
+}
+.cart-table tbody td {
+    font-size: 14px;
+    padding: 10px;
+	text-align:center;
+}
+.cart-table tbody td input {
+    border: 1px solid #dfdfdf;
+    height: 30px;
+    padding-right: 5px;
+    text-align: right;
+    width: 40%;
+}
+.cart-table tbody td:nth-child(1){
+	text-align:left;
+	}
+ .cart-table tfoot td{
+	 text-align:center;
+	 padding:5px;
+	 font-size:16px;
+	 border-top:1px dashed #b0b0b0;
+	 }
+.cart-but{
+	display:block;
+	margin: 10px 0 10px 80%;
+	}		
